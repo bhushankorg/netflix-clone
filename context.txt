@@ -1,0 +1,446 @@
+# PROJECT: PIYUSHA+ (Netflix-Inspired Birthday Website)
+
+You are an expert Product Designer, Frontend Engineer, UX Designer, and Motion Designer.
+
+Build a complete production-ready web application called **Piyusha+**, inspired by Netflix, but designed as a personalized digital love story and birthday gift.
+
+The website is being built by a software engineer (Bhushan) for his girlfriend (Piyusha) as a surprise birthday gift.
+
+The goal is not to create a generic photo album.
+
+The goal is to create an emotional, premium, cinematic experience that feels like a streaming platform dedicated entirely to their relationship.
+
+---
+
+## TECH STACK
+
+Use:
+
+* Next.js 15 (App Router)
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Lucide Icons
+* Responsive Mobile + Desktop Design
+* Deployable on Vercel
+
+Code should be clean, modular, production-ready and visually polished.
+
+---
+
+## DESIGN LANGUAGE
+
+Primary Inspiration:
+Netflix UI
+
+Secondary Inspirations:
+Disney+
+Spotify Wrapped
+Apple Product Pages
+
+Visual Style:
+
+* Premium
+* Romantic
+* Elegant
+* Cinematic
+* Modern
+* Minimal
+
+Avoid:
+
+* Cringe animations
+* Excessive hearts everywhere
+* Cheap-looking birthday themes
+* Childish romantic design
+
+The website should feel like:
+
+"If Netflix created a platform to stream our relationship memories."
+
+---
+
+## BRANDING
+
+App Name:
+
+PIYUSHA+
+
+Logo:
+
+PIYUSHA+
+
+Use Netflix-inspired typography but do not copy Netflix branding exactly.
+
+---
+
+## LANDING EXPERIENCE
+
+When the website loads:
+
+Show a full-screen hero section.
+
+Background:
+Best couple photograph (placeholder image for now)
+
+Overlay:
+Dark cinematic gradient
+
+Text:
+
+PIYUSHA+
+
+Genre:
+Romance • Comedy • Adventure • Drama
+
+Description:
+
+"Two strangers accidentally crossed paths and slowly became each other's favorite person."
+
+Buttons:
+
+▶ Continue Watching
+
+ℹ Our Story
+
+Add subtle motion effects.
+
+---
+
+## HOME PAGE SECTIONS
+
+Section 1:
+
+Continue Watching
+
+Display cards such as:
+
+Episode 1 — The Beginning
+
+Episode 2 — First Conversation
+
+Episode 3 — First Date
+
+Episode 4 — Favorite Memories
+
+Episode 5 — Adventures Together
+
+Episode 6 — Our First Car
+
+Each card opens a dedicated page.
+
+---
+
+## SECTION: TRENDING MEMORIES
+
+Horizontal Netflix-style carousel.
+
+Cards:
+
+* Her Smile
+* Random Selfies
+* Funny Moments
+* Late Night Calls
+* Favorite Photos
+* Places We Visited
+
+Each opens a gallery.
+
+---
+
+## SECTION: TOP PICKS FOR PIYUSHA
+
+Fun recommendation row.
+
+Examples:
+
+Because you watched Bhushan...
+
+Recommended:
+
+* Unlimited Food Dates
+* Random Road Trips
+* Future Adventures
+* More Flowers
+* Lifetime Subscription to Love
+
+Use humorous metadata.
+
+---
+
+## MEMORY PAGE TEMPLATE
+
+Every episode page should contain:
+
+Hero Banner
+
+Title
+
+Date
+
+Photo Gallery
+
+Story Description
+
+Favorite Moment
+
+Quote
+
+Smooth transitions
+
+Support both images and embedded videos.
+
+---
+
+SPECIAL EPISODE:
+OUR FIRST CAR
+-------------
+
+Create a dedicated premium page.
+
+Theme:
+
+New Release
+
+Title:
+
+Our First Car
+
+Genre:
+
+Adventure
+
+Description:
+
+"A new chapter unlocked."
+
+Include:
+
+Photo gallery placeholders
+
+Timeline section
+
+Memory notes
+
+Future road-trip bucket list
+
+Animated reveal section
+
+---
+
+## STATISTICS PAGE
+
+Create a playful analytics dashboard.
+
+Examples:
+
+Days Together: [dynamic placeholder]
+
+Photos Taken: [placeholder]
+
+Trips Completed: [placeholder]
+
+Favorite Food Dates: [placeholder]
+
+Arguments Won By Bhushan: 0
+
+Arguments Won By Piyusha: 100%
+
+Use beautiful cards and animations.
+
+---
+
+## TIMELINE PAGE
+
+Create an interactive relationship timeline.
+
+Milestones:
+
+* First Conversation
+* First Meeting
+* First Date
+* First Trip
+* Special Moments
+* First Car
+* Birthday 2026
+
+Timeline should animate while scrolling.
+
+---
+
+## BIRTHDAY SURPRISE SECTION
+
+Create a hidden section.
+
+Label:
+
+🔒 Secret Episode
+
+The card should appear locked.
+
+When clicked:
+
+Open a password modal.
+
+Password placeholder:
+
+2306
+
+After successful unlock:
+
+Navigate to Birthday Page.
+
+---
+
+## HAPPY BIRTHDAY PAGE
+
+This should be the emotional climax.
+
+Use cinematic animations.
+
+Display:
+
+Happy Birthday Piyusha ❤️
+
+Followed by a beautifully formatted letter section.
+
+Create a placeholder component:
+
+<LetterContent />
+
+where I will later insert my personal handwritten message.
+
+Add background music support (optional).
+
+Add floating photo memories.
+
+Add subtle particle effects.
+
+Do NOT make it tacky.
+
+---
+
+## PHOTO MANAGEMENT
+
+Create reusable components:
+
+MemoryCard
+
+GalleryCarousel
+
+EpisodeCard
+
+TimelineEvent
+
+StatsCard
+
+HeroBanner
+
+PasswordModal
+
+BirthdayReveal
+
+PhotoGrid
+
+VideoGallery
+
+All images should be configurable through a data file.
+
+---
+
+## DATA MODEL
+
+Create a central data structure:
+
+/data/memories.ts
+
+Allow easy addition of:
+
+* title
+* date
+* description
+* images
+* videos
+* quotes
+
+without changing UI code.
+
+---
+
+## ANIMATIONS
+
+Use Framer Motion.
+
+Include:
+
+* Page transitions
+* Fade-in sections
+* Hover effects
+* Smooth card scaling
+* Cinematic banner transitions
+
+Animations should feel premium and mature.
+
+---
+
+## RESPONSIVE DESIGN
+
+Website must look excellent on:
+
+* iPhone
+* Android
+* Tablet
+* Desktop
+
+Mobile-first design.
+
+---
+
+## BONUS FEATURES
+
+If possible include:
+
+1. Background music toggle.
+
+2. Typewriter intro message.
+
+3. "More Memories Loading..." ending page.
+
+4. Countdown to next adventure.
+
+5. Future bucket list section.
+
+6. QR code entry page suitable for opening from a birthday card.
+
+---
+
+## OUTPUT REQUIREMENTS
+
+Generate:
+
+1. Full project structure.
+
+2. Folder hierarchy.
+
+3. All React components.
+
+4. Data models.
+
+5. Tailwind setup.
+
+6. Framer Motion integration.
+
+7. Complete implementation code.
+
+8. Deployment instructions for Vercel.
+
+9. Sample placeholder data.
+
+10. Any required assets list.
+
+The result should feel like a premium relationship streaming platform, not a photo album.
+
+Add photos — drop images in public/images/ and update the images[] arrays in data/memories.ts
+Write the letter — open components/LetterContent.tsx and replace the placeholder paragraphs
+Add background music — put an MP3 at public/music/birthday.mp3 (optional)
+Deploy — run vercel in the piyusha-plus folder
